@@ -16,13 +16,16 @@ export default function WeatherNumbers(props) {
       <div className="row mt-3">
         <div className="col-6">
           <WeatherIcon code={props.data.icon} />
-        <WeatherUnit celsius={props.data.temperature} />
-          
+          <WeatherUnit celsius={props.data.temperature} />
         </div>
         <div className="col-6">
           <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {props.data.wind} km/h</li>
+            <li>
+              <strong>Humidity</strong>: {props.data.humidity}%
+            </li>
+            <li>
+              <strong>Wind</strong>: {props.data.wind} km/h
+            </li>
           </ul>
         </div>
       </div>
