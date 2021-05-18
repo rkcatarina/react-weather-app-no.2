@@ -5,9 +5,8 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      
       <h1>Weather App</h1>
-      <Weather defaultCity="Rome"/>
+      <Weather defaultCity="Rome" />
       <footer>
         This project was coded by Catarina Redshaw Kranich and is
         <a
@@ -16,6 +15,13 @@ export default function App() {
         >
           {" "}
           open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://github.com/rkcatarina/react-weather-app-no.2"
+          target="_blank"
+        >
+          hosted on Netlify
         </a>
       </footer>
     </div>

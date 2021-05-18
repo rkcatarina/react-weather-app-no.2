@@ -13,12 +13,12 @@
   line-height: 29px;
 }
 
-.Weather img {
-    height: 64px;
-    margin-right: 10px;
-    display: inline-block;
-    position: relative;
-    top: -17px;
+.Weather canvas {
+  height: 64px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  top: -0px;
 }
 
 .Weather ul {
@@ -41,9 +41,11 @@
   margin-left: 5px;
   font-weight: 400;
   margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  right: -70px;
+  top: -70px;
 }
-
-
 
 .Weather .unit {
   color: rgb(33, 33, 33);
@@ -51,5 +53,7 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -100px;
+  right: -70px;
+  display: inline-block;
 }
