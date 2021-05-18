@@ -11,7 +11,6 @@ export default function App() {
         This project was coded by Catarina Redshaw Kranich and is
         <a
           href="https://github.com/rkcatarina/react-weather-app-no.2"
-          target="_blank"
         >
           {" "}
           open-sourced on GitHub
@@ -19,7 +18,6 @@ export default function App() {
         and{" "}
         <a
           href="https://github.com/rkcatarina/react-weather-app-no.2"
-          target="_blank"
         >
           hosted on Netlify
         </a>
